@@ -1,0 +1,61 @@
+.main-heading{
+    color :black;
+    font-size: 30px;
+    font-style: normal;
+    background-color: red;
+    text-align: center;
+    /* padding means making te space inside that redbox */
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 1000px;
+
+    margin-left:30px;
+    margin-right:40px;
+    margin-top: 30px ;
+
+    font-weight: 1000;
+
+    
+
+}
+h2{
+    color :aqua;
+    font-size: 20px;
+    font-style:italic;
+    text-align: center;
+    background-color: blueviolet;
+}
+p{
+    font-size:20px;
+    font-style:oblique;
+     
+}
+
+h3{
+    color:purple; 
+    font-style:normal;
+}
+h4{
+    color:red;
+    font-style:italic;
+}
+
+ul{
+    color:chartreuse;
+}
+
+ol{
+    color:rgb(12, 49, 81);
+}
+#ending{
+    color:deeppink;
+    background-color: darkgreen;
+    font-size:60px;
+    text-align:center;
+    margin-left:300px;
+    margin-right:300px;
+    font-weight: 900;
+    
+
+}

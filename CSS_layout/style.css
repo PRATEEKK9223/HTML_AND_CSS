@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0; 
+}
+body{
+    background-color: bisque;
+}
+
+.heading{
+    background-color: seagreen;
+    font-size: 30px;
+    text-align:center;
+    margin-top:10px;
+
+}
+#sub-heading{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(91, 21, 176);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:500px;
+    margin-right:500px;
+}
+
+.flex-layout{
+    background-color:chartreuse;
+    padding:50px;
+    display: flex;/*flex give the column wice alignment initialy*/
+    flex-direction:row;
+    gap:30px;
+    justify-content: space-evenly; 
+    align-items: center;
+    border:solid #1122e1 ;
+    /* margin-bottom: 100px; it makes the space in bottom */
+}
+
+.box{
+    background-color: rgb(79, 20, 255); 
+    padding: 40px;
+    border: double #ea0d0d;
+}
+
+.grid-layout{
+    background-color: rgb(223, 12, 12);
+    padding:50px;
+    display:grid; /*grid give the row wice alignment initialy*/
+    gap:10px;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-columns: repeat(2fr); */
+    border: dotted #ffff
+    
+    
+}
+
+.section{
+   background-color: rgb(33, 24, 222);
+   padding: 30px;
+   border:solid #ffff;
+}
+
+#end{
+    margin:10px;
+    background-color: cornflowerblue;
+    text-align:center;
+    color:#1122e1;
+
+}
